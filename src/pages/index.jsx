@@ -15,7 +15,7 @@ export default function Home() {
     audio.pause();
   }
   return (
-    <div>
+    <div className="bg-[#333333]">
       <h1
         onClick={() => {
           if (isPlaying) {
